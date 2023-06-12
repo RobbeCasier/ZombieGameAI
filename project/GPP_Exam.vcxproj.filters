@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Plugin.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="SteeringBehavior.cpp">
+      <Filter>Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviorTree.cpp">
+      <Filter>DecisionMaking\BehaviorTree</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAgent.cpp" />
+    <ClCompile Include="SteeringAgent.cpp" />
+    <ClCompile Include="CombinedBehaviors.cpp">
+      <Filter>Steering</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Plugin.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SteeringBehavior.h">
+      <Filter>Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavior.h">
+      <Filter>DecisionMaking\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Blackboard.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviorTree.h">
+      <Filter>DecisionMaking\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionMaking.h">
+      <Filter>DecisionMaking</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAgent.h" />
+    <ClInclude Include="SteeringAgent.h" />
+    <ClInclude Include="Helpers.h" />
+    <ClInclude Include="CombinedBehaviors.h">
+      <Filter>Steering</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Steering">
+      <UniqueIdentifier>{7eef8972-2cff-4650-856a-58cddba00e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{577b27dc-89c2-4fba-a4f4-c4dbbc966925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DecisionMaking">
+      <UniqueIdentifier>{48c69052-d373-4812-9f92-18ed9605d2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DecisionMaking\BehaviorTree">
+      <UniqueIdentifier>{d0050c98-5a5f-4dee-81d1-db73cf099007}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
